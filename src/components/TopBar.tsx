@@ -3,7 +3,7 @@ const TopBar: React.FC = () => {
     <header className="fixed top-0 left-0 z-50 w-full h-24 bg-black border-b border-gray-800 text-white">
       <div className="max-w-7xl mx-auto h-full flex items-center px-10 pl-30">
         
-        <div className="flex-shrink-0 text-lg font-semibold">
+        <div className="flex-shrink-0 text-3xl font-semibold">
           Zohaib Vehra
         </div>
 
@@ -11,11 +11,11 @@ const TopBar: React.FC = () => {
         
 
         <nav className="flex gap-8 text-lg">
-          <a className="hover:text-gray-400">Projects</a>
-          <a className="hover:text-gray-400">Experience</a>
-          <a className="hover:text-gray-400">Skills</a>
-          <a className="hover:text-gray-400">About</a>
-          <a className="hover:text-gray-400">Contact</a>
+          <a className="hover:text-gray-400 text-2xl">Projects</a>
+          <a className="hover:text-gray-400 text-2xl">Experience</a>
+          <a className="hover:text-gray-400 text-2xl">Skills</a>
+          <a className="hover:text-gray-400 text-2xl">About</a>
+          <a className="hover:text-gray-400 text-2xl">Contact</a>
         </nav>
 
       </div>

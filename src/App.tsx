@@ -1,9 +1,11 @@
-import { useState } from 'react'
 import Banner from './components/Banner'
 import './App.css'
 import TopBar from './components/TopBar'
 import Projects from './components/Projects'
 import MobileTopBar from './components/MobileTopBar'
+import Experience from './components/Experience'
+import Skills from './components/Skills'
+
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
       </>
       <Banner />
       <Projects />
+      <Experience />
+      <Skills />
     </>
   )
 }
