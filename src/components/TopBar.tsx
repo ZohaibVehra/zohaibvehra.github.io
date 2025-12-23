@@ -31,11 +31,6 @@ const TopBar: React.FC = () => {
               About
             </div>
           </a>
-          <a href="#contact">
-            <div className="text-2xl hover:text-gray-400 cursor-pointer py-6">
-              Contact
-            </div>
-          </a>
         </nav>
 
       </div>

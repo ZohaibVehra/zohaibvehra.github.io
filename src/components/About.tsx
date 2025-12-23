@@ -17,7 +17,7 @@ const About: React.FC = () => {
   const wideEnough = useMinWidth(1850);
 
   return (
-    <div className="mt-5 w-full bg-[#ecebef] pb-10">
+    <div className="mt-5 w-full bg-[#ecebef] pb-10 scroll-mt-16 md:scroll-mt-24" id="about">
         <div className="w-full h-20 flex gap-16 justify-center text-lg text-gray-600 font-bold items-center px-[10%]">
             <div className="mt-10 md:mt-10 hidden md:block flex-1 h-px bg-gray-400" />
             <h1 className="mt-10 md:mt-10 text-2xl whitespace-nowrap scale-y-110">WHO AM I?</h1>

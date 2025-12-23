@@ -7,14 +7,20 @@ const MobileDropDown: React.FC<MobileDropDownProps> = ({ onClose }) => {
     <>
         <header className="fixed top-16 w-full left-0 bg-[#1f1f1f] z-50 flex flex-col">
             <nav className="flex flex-col text-white text-lg text-center">
-                {["Projects", "Experience", "Skills", "About", "Contact"].map((item) => (
-                <div key={item} className="border-b border-white/10">
+                {[
+                    { label: "Projects", id: "projects" },
+                    { label: "Experience", id: "experience" },
+                    { label: "Skills", id: "skills" },
+                    { label: "About", id: "about" },
+                    { label: "Contact", id: "contact" },
+                ].map(({ label, id }) => (
+                <div key={id} className="border-b border-white/10">
                     <a
-                        href="#"
+                        href={`#${id}`}
                         className="block py-6"
                         onClick={onClose}
                     >
-                    {item}
+                    {label}
                     </a>
                 </div>
                 ))}

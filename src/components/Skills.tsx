@@ -2,7 +2,7 @@ import SkillCard from "./SkillCard";
 
 const Skills: React.FC = () => {
   return (
-    <div className="border-t-3 border-gray-400 w-full md:flex-1">
+    <div id="skills" className="border-t-3 border-gray-400 w-full md:flex-1 scroll-mt-16 md:scroll-mt-24">
         <div className="w-full h-20 flex gap-16 justify-center text-lg text-gray-600 font-bold items-center px-[10%]">
             <div className="mt-10 md:mt-10 hidden md:block flex-1 h-px bg-gray-400" />
             <h1 className="mt-10 md:mt-10 text-2xl whitespace-nowrap scale-y-110">SKILLS</h1>

@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const Projects: React.FC = () => {
   return (
-    <div>
+    <div id="projects" className="scroll-mt-16 md:scroll-mt-24">
         <div
             className="mt-5 md:mt-5 w-full h-20 flex gap-15 justify-center text-lg text-gray-600 font-bold flex items-center px-[10%]"
         >
