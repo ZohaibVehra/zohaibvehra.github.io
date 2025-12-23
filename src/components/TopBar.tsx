@@ -3,7 +3,7 @@ const TopBar: React.FC = () => {
     <header className="fixed top-0 left-0 z-50 w-full h-24 bg-black border-b border-gray-800 text-white">
       <div className="max-w-7xl mx-auto h-full flex items-center px-10 pl-30">
         
-        <div className="flex-shrink-0 text-3xl font-semibold">
+        <div className="flex-shrink-0 text-2xl font-semibold">
           Zohaib Vehra
         </div>
 
@@ -11,11 +11,31 @@ const TopBar: React.FC = () => {
         
 
         <nav className="flex gap-8 text-lg">
-          <a className="hover:text-gray-400 text-2xl">Projects</a>
-          <a className="hover:text-gray-400 text-2xl">Experience</a>
-          <a className="hover:text-gray-400 text-2xl">Skills</a>
-          <a className="hover:text-gray-400 text-2xl">About</a>
-          <a className="hover:text-gray-400 text-2xl">Contact</a>
+          <a href="#projects">
+            <div className="text-2xl hover:text-gray-400 cursor-pointer py-6">
+              Projects
+            </div>
+          </a>
+          <a href="#experience">
+            <div className="text-2xl hover:text-gray-400 cursor-pointer py-6">
+              Experience
+            </div>
+          </a>
+          <a href="#skills">
+            <div className="text-2xl hover:text-gray-400 cursor-pointer py-6">
+              Skills
+            </div>
+          </a>
+          <a href="#about">
+            <div className="text-2xl hover:text-gray-400 cursor-pointer py-6">
+              About
+            </div>
+          </a>
+          <a href="#contact">
+            <div className="text-2xl hover:text-gray-400 cursor-pointer py-6">
+              Contact
+            </div>
+          </a>
         </nav>
 
       </div>

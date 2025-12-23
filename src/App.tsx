@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import MobileTopBar from './components/MobileTopBar'
 import Experience from './components/Experience'
 import Skills from './components/Skills'
+import About from './components/About'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Projects />
       <Experience />
       <Skills />
+      <About />
     </>
   )
 }

@@ -25,7 +25,7 @@ type ValCardProps = {
 const ValCard: React.FC<ValCardProps> = ({val}) => {
     return (
         <div className="rounded-lg bg-[#6d9ce0] px-3 h-12 flex items-center justify-center">
-            <p className="text-xl text-white whitespace-nowrap">{val}</p>
+            <p className="text-md md:text-xl text-white whitespace-nowrap">{val}</p>
         </div>
     )
 }
@@ -38,7 +38,7 @@ const SkillCard: React.FC<SkillCardProps> = ({title, values, image}) => {
     <div
       className="relative overflow-hidden rounded-xl bg-[#f1f0f2] w-full md:w-[75%] h-24 border border-gray-300 flex items-center"
     >
-      <h1 className="md:text-2xl font-semibold text-gray-700 ml-5 md:ml-10 z-10">
+      <h1 className="text-md md:text-2xl font-semibold text-gray-700 ml-5 md:ml-10 z-10">
         {title}
       </h1>
 
@@ -60,9 +60,9 @@ const SkillCard: React.FC<SkillCardProps> = ({title, values, image}) => {
 
   return (
     <div
-        className="rounded-xl bg-[#f1f0f2] w-full md:w-[75%] min-h-[5rem] border border-gray-300 flex items-start px-6 py-4 gap-6 flex-col md:flex-row"
+        className="rounded-xl bg-[#f1f0f2] w-full md:w-[75%] min-h-[5rem] border border-gray-300 flex items-start px-6 py-3 md:py-4 gap-6 flex-col md:flex-row"
     >
-        <h1 className="text-2xl font-semibold text-gray-700 whitespace-nowrap mt-2">
+        <h1 className="text-xl font-semibold text-gray-700 whitespace-nowrap mt-2">
         {title}
         </h1>
 
